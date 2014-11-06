@@ -39,3 +39,5 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'faker', '~> 1.4.3'
+gem 'pg_search'
+gem 'simple_form'
