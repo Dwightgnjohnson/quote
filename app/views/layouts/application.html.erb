@@ -10,6 +10,9 @@
     <%= form_tag root_path, method: 'get' do %>
       <%= text_field_tag :search, params[:search] ,placeholder: "Search" %>
     <% end %>
+    <%= link_to "Home", root_path %>
+    <%= link_to "Contact Us", contact_path %>
+    <br><br>
 <%= yield %>
 
 </body>

@@ -41,3 +41,4 @@ gem 'spring',        group: :development
 gem 'faker', '~> 1.4.3'
 gem 'pg_search'
 gem 'simple_form'
+gem 'mail_form'
