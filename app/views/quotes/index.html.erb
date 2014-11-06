@@ -1,4 +1,7 @@
 <% @quotes.each do |x| %>
   <h3><%= x.quote %></h3>  -<em><%= x.author %></em>
+  <% x.tags.each do |tag| %>
+            <%= link_to tag.name, quote_tag_path(tag_name:tag.name) %>
+          <% end %>
   <br><hr>
 <%end%>

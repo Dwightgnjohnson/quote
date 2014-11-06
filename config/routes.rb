@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   post "/contact" => "contact_forms#create", as: :contact_forms
   get "/thanku" => "contact_forms#thanku", as: :thanku
 
+    get "/quotes/tag/:tag_name" => "quotes#tagged", as: :quote_tag
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
